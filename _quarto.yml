@@ -1,5 +1,22 @@
 project:
-  title: "combio22"
+  type: website
 
-editor: visual
+website:
+  title: "combio22"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: combio22.qmd
+        text: Slides
+      
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
 
