@@ -2,6 +2,8 @@
 title: "combio22"
 ---
 
-This is a Quarto website.
+This is the website for my talk for ComBio22.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I sadly only got a 5 minute talk, but here are my slides and some additional handy videos, links and contact information if you'd like to reach out!
+
+![Drawing peptide chains in Blender.](https://i.imgur.com/y4M3la1.mp4){#fig-draw-residues autoplay="'true'" loop="'true'" fig-align="center"}
