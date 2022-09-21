@@ -1,0 +1,12 @@
+- Scientific software ([[PyMol]], [[ChimeraX]], [[Molstar]])
+	- Science first
+	- Graphical fidelity of sceondary concern
+	- re-implementing their own graphics
+	- limited graphic fidelity (not the intended purpose)
+- 3D Software ([[Blender]], [[Maya]], [[Cinema4D]], [[Houdini]])
+	- Graphics first
+	- Great capabilities for creating 3D scenes
+	- Photoreal & non-photorealistic rendering techniques
+	- unaware of structural biology data formats
+	- not [[Biologically Literate]]
+- 
