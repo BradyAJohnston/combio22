@@ -2,20 +2,57 @@
 title: "Blending Proteins"
 subtitle: "Democratising Access to Beautiful Molecular Landscapes"
 author: Brady Johnston
-footer: "@bradyajohnston"
-format: revealjs
+footer: "[@bradyajohnston](https://twitter.com/bradyajohnston)"
+
+format: 
+  revealjs:
+    theme: [dark, custom.scss]
+    transition: slide
+    standalone: true
+    width: 1920
+    height: 1080
+    
 editor: visual
 ---
 
-## Quarto
+## Animating Proteins
 
-Quarto enables you to weave together content and executable code into a finished document.
-To learn more about Quarto see <https://quarto.org>.
+::: columns
+::: {.column width="40%"}
+- Animate Multi-Frame PDB Files
+- Leverage the power of 3D graphics
+`some code here` again
 
-```{r}
-1 + 1
+Code to create trajectory in [ChimeraX](https://www.cgl.ucsf.edu/chimerax/): 
+
+```{bash}
+open 6n2y 6n2z 6n30
+morph #1,2,3 wrap true
+save atp-frames.pdb #4 allCoordsets true
 ```
 
-# Here is another slide.
+:::
 
-Proteins but inside of Blender! How wacky is that!
+
+
+::: {.column width="60%"}
+![The power of 3D graphics.](https://i.imgur.com/kR8zlXC.mp4){#fig-draw-residues autoplay="'true'" loop="'true'" fig-align="center"}
+:::
+:::
+
+## Animating Proteins {width="200"}
+
+::: columns
+::: {.column width="40%"}
+
+The Famous ATP Synthase
+:::
+
+::: {.column width="60%"}
+![The power of 3D graphics.](https://i.imgur.com/iwjTZOu.mp4){autoplay="'true'" loop="'true'" height="20%" fig-align="center"}
+:::
+:::
+
+## Who Needs AlphaFold?
+
+![Draw your own proteins!](https://i.imgur.com/y4M3la1.mp4){autoplay="true" loop="true" controls="false" fig-align="center" height="900"}
