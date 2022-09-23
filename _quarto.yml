@@ -1,6 +1,9 @@
 project:
   type: website
-
+  render: 
+    - "*.qmd"
+    - "!combio-notes/"
+    
 website:
   title: "combio22"
   navbar:
@@ -8,13 +11,13 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: combio22.qmd
+      - href: slides.qmd
         text: Slides
       
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 

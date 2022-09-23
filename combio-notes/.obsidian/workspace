@@ -1,0 +1,148 @@
+{
+  "main": {
+    "id": "b2eef42af1a1e08a",
+    "type": "split",
+    "children": [
+      {
+        "id": "046fac14d4e0a4c4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Talk Outline.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "a38bd2eea073b8b5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Biologically Literate.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a6d573091d8b4547",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6b8e907bb2595f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a83ae3df7564c7c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d26c28ec9d34e501",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d9db959464ab6eb9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2833d02a94d20d70",
+    "type": "split",
+    "children": [
+      {
+        "id": "57f1ce6ccb5954b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b32edc7be97ef110",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Talk Outline.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5e5973e41148e1a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Talk Outline.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6c34d2d1ac36b514",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b58ad4d4639c655c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Talk Outline.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "046fac14d4e0a4c4",
+  "lastOpenFiles": [
+    "Biologically Literate.md",
+    "Talk Outline.md"
+  ]
+}
