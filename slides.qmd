@@ -10,7 +10,7 @@ format:
     width: 1920
     height: 1080
     
-editor: visual
+editor: source
 ---
 
 # Blending Proteins {background-video="https://i.imgur.com/IvMSiE1.mp4" background-video-loop="true"}
@@ -24,9 +24,9 @@ Democratising access to beautiful molecular landscapes.
 -   Animate Multi-Frame PDB Files
 -   Leverage the power of 3D graphics `some code here` again
 
-Code to create trajectory in [ChimeraX](https://www.cgl.ucsf.edu/chimerax/):
+Code to create morph in [ChimeraX](https://www.cgl.ucsf.edu/chimerax/):
 
-```{bash}
+```{.bash}
 open 6n2y 6n2z 6n30
 morph #1,2,3 wrap true
 save atp-frames.pdb #4 allCoordsets true
@@ -46,7 +46,7 @@ Procedurally animate various molecular processes.
 :::
 
 ::: {.column width="30%" align="right"}
-![Histone Sliding](https://i.imgur.com/iwjTZOu.mp4){autoplay="true" loop="true" height="900" fig-align="left"}
+![Histone Sliding](https://i.imgur.com/iwjTZOu.mp4){.absolute autoplay="true" loop="true" top=540  right=400 width=}
 :::
 :::
 
@@ -54,10 +54,16 @@ Procedurally animate various molecular processes.
 
 ## Non-photorealistic rendering styles. {background-video="img/atp-synthase-cartoon-reveal.mp4" background-video-loop="true"}
 
-## Webm Rebdering Styles {background-video="img/atp-synthase-cartoon-reveal.webm" background-video-loop="true"}
+## Webm Rebdering Styles {background-video="img/atp-synthase-cartoon-reveal.webm" background-video-loop="true" background-size="contain"}
 
-## Who Needs AlphaFold?
+## Who Needs AlphaFold? {background-video="img/draw_proteins.webm" background-video-loop="true" background-size="contain"}
 
-![Draw your own proteins!](https://i.imgur.com/y4M3la1.mp4){autoplay="true" loop="true" controls="false" fig-align="center" height="900"}
+When you can just draw your own proteins.
+<!-- ![Draw your own proteins!](https://i.imgur.com/y4M3la1.mp4){autoplay="true" loop="true" controls="false" fig-align="center" height="900"} -->
 
-## Creating Your Own Peptides {background-video="https://webm.red/view/rHi6.webm" background-video-loop="true"}
+## Animating Amino Acids {background-video="img/protein_synthesis.mp4" background-video-loop="true" background-size="contain"}
+
+## Biological Assemblies {background-video="img/NPC.webm" background-video-loop="true" background-size="contain"}
+
+## Instancing of Single Proteins {background-video="img/atp-scatter.webm" background-video-loop="true" background-size="contain"}
+
