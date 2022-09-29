@@ -13,11 +13,11 @@ format:
 editor: source
 ---
 
-# Blending Proteins {background-video="https://i.imgur.com/IvMSiE1.mp4" background-video-loop="true"}
+# Blending Proteins {background-video="https://i.imgur.com/IvMSiE1.mp4" background-video-loop="true" background-size="contain}
 
 Democratising access to beautiful molecular landscapes.
 
-Brady Johnston [\@bradyajohnston](https://twitter.com/bradyajohnston)
+Brady Johnston ([\@bradyajohnston](https://twitter.com/bradyajohnston))
 
 ## Traditional Flow of Structural Data
 
@@ -54,7 +54,7 @@ ATOM     10  CA  VAL A   2      39.137  11.285 -13.940  1.00 60.76      A    C
 ### More 'Cinematic' Visulisations
 
 -   Export 3D geometry to other dedicated 3D programs (Blender, Maya)
-  - [Connection to underlying scientific data is lost]{.fragment .fade-in fragment-index=4}
+-   Connection to underlying scientific data is lost
 
 :::::
 :::
@@ -66,13 +66,14 @@ ATOM     10  CA  VAL A   2      39.137  11.285 -13.940  1.00 60.76      A    C
 :::::
 :::
 
-## Protein Motor Goes _brrrrr_ {background-video="img/protein-motor.webm" background-video-loop="true" background-size="contain"}
+## Protein Motor Goes _brrrrrrrrrr_ {background-video="img/protein-motor.webm" background-video-loop="true" background-size="contain"}
 
 ::: columns
 ::: {.column width="60%"}
 ::: {.fragment .fade-in fragment-index=1}
 
 - Cinematic visualisation of structural data
+  - Bacterial Flagellar ([7CG0](https://www.rcsb.org/structure/7CGO))
 
 :::
 :::
@@ -100,118 +101,42 @@ ATOM     10  CA  VAL A   2      39.137  11.285 -13.940  1.00 60.76      A    C
 :::
 :::
 
-## Introducing Molecular Nodes
-:::: columns
-::::: {.column width="60%"}
-::: {.fragment .fade-in fragment-index=1}
 
-- ### Imports structure & molecular dynamics trajectores into Blender
-
-:::
-
-::: {.fragment .fade-in fragment-index=2}
-
-- ### Helps Blender understand the molecular data, maintaining connection
-
-:::
-
-::: {.fragment .fade-in fragment-index=3}
-
-- ### Enables procedural generation of 3D geometry, procedural animations based on the underlying scientific data
-
-::: {.fragment .fade-in fragment-index=4}
-
-Code to create morph in [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) & save as a multi-state `.pdb` file:
-
-``` bash
-open 6n2y 6n2z 6n30
-morph #1,2,3 wrap true
-save atp-frames.pdb #4 allCoordsets true
-```
-:::
-:::
-::::: 
-
-::::: {.column width="40%"}
-![](img/atp-synthase-cartoon-reveal.webm){autoplay="true" loop="true" fig-align="center"}
-:::::
-::::
-
-## Stylised Molecular Graphics
-
-::: columns
-::: {.column width="40%"}
-::: {.fragment .fade-in fragment-index=2}
-
-- ## Non-photorealistic rendering styles
-
-:::
-::: {.fragment .fade-in fragment-index=3}
-
-- ## Based on & still linked to underlying scientific data
-
-:::
-::: {.fragment .fade-in fragment-index=3}
-
-- ## Doesn't require intermediate steps (PyMol, ChimeraX)
-
-:::
-
-:::
-
-::: {.column width="60%"}
-![](https://i.imgur.com/kR8zlXC.mp4){#fig-draw-residues autoplay="'true'" loop="'true'" fig-align="center"}
-:::
-:::
-
-## Animating Protein
-
-::: columns
-::: {.column width="60%"}
-Procedurally animate various molecular processes.
-:::
-
-::: {.column width="40%" align="right"}
-![Histone Sliding](https://i.imgur.com/iwjTZOu.mp4){autoplay="true" loop="true"}
-:::
-:::
-
-## Fully Procedural DNA? {background-video="img/dna-unwind.webm" background-video-loop="true" background-video-autoplay="true"}
-
-## Who Needs AlphaFold? {background-video="img/draw_proteins.webm" background-video-loop="true" background-size="contain"}
-
-When you can just draw your own proteins. <!-- ![Draw your own proteins!](https://i.imgur.com/y4M3la1.mp4){autoplay="true" loop="true" controls="false" fig-align="center" height="900"} -->
-
-## Animating Amino Acids {background-video="img/protein_synthesis.mp4" background-video-loop="true" background-size="contain"}
-
-## Biological Assemblies {background-video="img/NPC.webm" background-video-loop="true" background-size="contain"}
+## {background-video="img/md-spike.webm" background-video-loop="true" background-size="contain"}
 
 ## Instancing of Single Proteins {background-video="img/atp-scatter.webm" background-video-loop="true" background-size="contain"}
 
-## Molecular Nodes {background-video="img/virus_rotate_90.mp4" background-video-loop="true" background-size="contain"}
+## Biological Assemblies {background-video="img/NPC.webm" background-video-loop="true" background-size="contain"}
 
-::: {.fragment .fade-up fragment-instance=1}
+## Molecular Landscapes {background-video="img/virus-particles.webm" background-video-loop="true" background-size="contain"}
+
+## Automatic Creation of DNA? {background-video="img/dna-unwind.webm" background-video-loop="true" background-video-autoplay="true"}
+
+## Automatic Animation of DNA? {background-video="img/dna_synth.webm" background-video-loop="true" background-video-autoplay="true"}
+
+## Incorporate with `.pdb` Structures {background-video="img/dna-histone.webm" background-video-loop="true" background-video-autoplay="true"}
+
+## Animating Static Crystal Structures {background-video="img/wiggle-1.webm" background-video-loop="true" background-size="contain"}
+
+## Animating Amino Acids {background-video="img/protein_synthesis.mp4" background-video-loop="true" background-size="contain"}
+
+## Who Needs AlphaFold? {background-video="img/draw_proteins.webm" background-video-loop="true" background-size="contain"}
+
+## Animating Static Viral Assemblies {background-video="img/virus_wiggle_zoom.webm" background-video-loop="true" background-size="contain"}
+
+
+## Molecular Nodes {background-video="img/virus_rotate_90.mp4" background-video-loop="true" background-size="contain"}
 
 - ### Free and open source
 
-::: 
-::: {.fragment .fade-up fragment-instance=2}
-
 - ### 'Relatively' easy to use
 
-::: 
-::: {.fragment .fade-up fragment-instance=3}
-
 - ### Import and Animate: 
-  - PDB structures
-  - Molecluar Dynamics trajectories (via [`MDAnalysis`](https://www.mdanalysis.org/))
+  - Static PDB structures
+  - Molecluar dynamics trajectories (via [`MDAnalysis`](https://www.mdanalysis.org/))
   - Multi-state `.pdb` files from a structural morph
+  - bio-polymers (DNA, peptides, actin filaments etc)
 
-::: 
-::: {.fragment .fade-up fragment-instance=4}
+Scan to find out more!
 
-- ### Procedurally animate:
-  - static crystal structures
-  - DNA & peptide chains
-
-:::
+![](img/combio22.png){width=400 height=400}

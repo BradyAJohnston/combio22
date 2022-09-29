@@ -388,10 +388,10 @@
 
 
 <section>
-<section id="blending-proteins" class="title-slide slide level1 center" data-background-video="https://i.imgur.com/IvMSiE1.mp4" data-background-video-loop="true">
+<section id="blending-proteins" class="title-slide slide level1 center" data-background-video="https://i.imgur.com/IvMSiE1.mp4" data-background-video-loop="true" data-background-size="&quot;contain">
 <h1>Blending Proteins</h1>
 <p>Democratising access to beautiful molecular landscapes.</p>
-<p>Brady Johnston <a href="https://twitter.com/bradyajohnston">@bradyajohnston</a></p>
+<p>Brady Johnston (<a href="https://twitter.com/bradyajohnston">@bradyajohnston</a>)</p>
 </section>
 <section id="traditional-flow-of-structural-data" class="slide level2">
 <h2>Traditional Flow of Structural Data</h2>
@@ -425,7 +425,7 @@
 <h3 id="more-cinematic-visulisations">More ‘Cinematic’ Visulisations</h3>
 <ul>
 <li>Export 3D geometry to other dedicated 3D programs (Blender, Maya)</li>
-<li><span class="fragment fade-in" data-fragment-index="4">Connection to underlying scientific data is lost</span></li>
+<li>Connection to underlying scientific data is lost</li>
 </ul>
 </div>
 </div><div class="column" style="width:40%;">
@@ -435,13 +435,16 @@
 </div>
 </div>
 </section>
-<section id="protein-motor-goes-brrrrr" class="slide level2" data-background-video="img/protein-motor.webm" data-background-video-loop="true" data-background-size="contain">
-<h2>Protein Motor Goes <em>brrrrr</em></h2>
+<section id="protein-motor-goes-brrrrrrrrrr" class="slide level2" data-background-video="img/protein-motor.webm" data-background-video-loop="true" data-background-size="contain">
+<h2>Protein Motor Goes <em>brrrrrrrrrr</em></h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <div class="fragment fade-in" data-fragment-index="1">
 <ul>
-<li>Cinematic visualisation of structural data</li>
+<li>Cinematic visualisation of structural data
+<ul>
+<li>Bacterial Flagellar (<a href="https://www.rcsb.org/structure/7CGO">7CG0</a>)</li>
+</ul></li>
 </ul>
 </div>
 </div><div class="column" data-align="right" style="width:40%;">
@@ -459,131 +462,54 @@
 </div>
 </div>
 </section>
-<section id="introducing-molecular-nodes" class="slide level2">
-<h2>Introducing Molecular Nodes</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<div class="fragment fade-in" data-fragment-index="1">
-<ul>
-<li><h3 id="imports-structure-molecular-dynamics-trajectores-into-blender">Imports structure &amp; molecular dynamics trajectores into Blender</h3></li>
-</ul>
-</div>
-<div class="fragment fade-in" data-fragment-index="2">
-<ul>
-<li><h3 id="helps-blender-understand-the-molecular-data-maintaining-connection">Helps Blender understand the molecular data, maintaining connection</h3></li>
-</ul>
-</div>
-<div class="fragment fade-in" data-fragment-index="3">
-<ul>
-<li><h3 id="enables-procedural-generation-of-3d-geometry-procedural-animations-based-on-the-underlying-scientific-data">Enables procedural generation of 3D geometry, procedural animations based on the underlying scientific data</h3></li>
-</ul>
-<div class="fragment fade-in" data-fragment-index="4">
-<p>Code to create morph in <a href="https://www.cgl.ucsf.edu/chimerax/">ChimeraX</a> &amp; save as a multi-state <code>.pdb</code> file:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">open</span> 6n2y 6n2z 6n30</span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="ex">morph</span> <span class="co">#1,2,3 wrap true</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="ex">save</span> atp-frames.pdb <span class="co">#4 allCoordsets true</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div><div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><video data-src="img/atp-synthase-cartoon-reveal.webm" autoplay="true" loop="true" controls=""><a href="img/atp-synthase-cartoon-reveal.webm">Video</a></video></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="stylised-molecular-graphics" class="slide level2">
-<h2>Stylised Molecular Graphics</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div class="fragment fade-in" data-fragment-index="2">
-<ul>
-<li><h2 id="non-photorealistic-rendering-styles">Non-photorealistic rendering styles</h2></li>
-</ul>
-</div>
-<div class="fragment fade-in" data-fragment-index="3">
-<ul>
-<li><h2 id="based-on-still-linked-to-underlying-scientific-data">Based on &amp; still linked to underlying scientific data</h2></li>
-</ul>
-</div>
-<div class="fragment fade-in" data-fragment-index="3">
-<ul>
-<li><h2 id="doesnt-require-intermediate-steps-pymol-chimerax">Doesn’t require intermediate steps (PyMol, ChimeraX)</h2></li>
-</ul>
-</div>
-</div><div class="column" style="width:60%;">
-<div id="fig-draw-residues" class="quarto-figure quarto-figure-center">
-<figure>
-<p><video data-src="https://i.imgur.com/kR8zlXC.mp4" autoplay="'true'" loop="'true'" controls=""><a href="https://i.imgur.com/kR8zlXC.mp4">Video</a></video></p>
-<p></p><figcaption>Figure&nbsp;1: <strong>?(caption)</strong></figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="animating-protein" class="slide level2">
-<h2>Animating Protein</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p>Procedurally animate various molecular processes.</p>
-</div><div class="column" data-align="right" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><video data-src="https://i.imgur.com/iwjTZOu.mp4" autoplay="true" loop="true" controls=""><a href="https://i.imgur.com/iwjTZOu.mp4">Video</a></video></p>
-<p></p><figcaption>Histone Sliding</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="fully-procedural-dna" class="slide level2" data-background-video="img/dna-unwind.webm" data-background-video-loop="true" data-background-video-autoplay="true">
-<h2>Fully Procedural DNA?</h2>
-</section>
-<section id="who-needs-alphafold" class="slide level2" data-background-video="img/draw_proteins.webm" data-background-video-loop="true" data-background-size="contain">
-<h2>Who Needs AlphaFold?</h2>
-<p>When you can just draw your own proteins. <!-- ![Draw your own proteins!](https://i.imgur.com/y4M3la1.mp4){autoplay="true" loop="true" controls="false" fig-align="center" height="900"} --></p>
-</section>
-<section id="animating-amino-acids" class="slide level2" data-background-video="img/protein_synthesis.mp4" data-background-video-loop="true" data-background-size="contain">
-<h2>Animating Amino Acids</h2>
-</section>
-<section id="biological-assemblies" class="slide level2" data-background-video="img/NPC.webm" data-background-video-loop="true" data-background-size="contain">
-<h2>Biological Assemblies</h2>
+<section id="section" class="slide level2" data-background-video="img/md-spike.webm" data-background-video-loop="true" data-background-size="contain">
+<h2></h2>
 </section>
 <section id="instancing-of-single-proteins" class="slide level2" data-background-video="img/atp-scatter.webm" data-background-video-loop="true" data-background-size="contain">
 <h2>Instancing of Single Proteins</h2>
 </section>
+<section id="biological-assemblies" class="slide level2" data-background-video="img/NPC.webm" data-background-video-loop="true" data-background-size="contain">
+<h2>Biological Assemblies</h2>
+</section>
+<section id="molecular-landscapes" class="slide level2" data-background-video="img/virus-particles.webm" data-background-video-loop="true" data-background-size="contain">
+<h2>Molecular Landscapes</h2>
+</section>
+<section id="automatic-creation-of-dna" class="slide level2" data-background-video="img/dna-unwind.webm" data-background-video-loop="true" data-background-video-autoplay="true">
+<h2>Automatic Creation of DNA?</h2>
+</section>
+<section id="automatic-animation-of-dna" class="slide level2" data-background-video="img/dna_synth.webm" data-background-video-loop="true" data-background-video-autoplay="true">
+<h2>Automatic Animation of DNA?</h2>
+</section>
+<section id="incorporate-with-.pdb-structures" class="slide level2" data-background-video="img/dna-histone.webm" data-background-video-loop="true" data-background-video-autoplay="true">
+<h2>Incorporate with <code>.pdb</code> Structures</h2>
+</section>
+<section id="animating-static-crystal-structures" class="slide level2" data-background-video="img/wiggle-1.webm" data-background-video-loop="true" data-background-size="contain">
+<h2>Animating Static Crystal Structures</h2>
+</section>
+<section id="animating-amino-acids" class="slide level2" data-background-video="img/protein_synthesis.mp4" data-background-video-loop="true" data-background-size="contain">
+<h2>Animating Amino Acids</h2>
+</section>
+<section id="who-needs-alphafold" class="slide level2" data-background-video="img/draw_proteins.webm" data-background-video-loop="true" data-background-size="contain">
+<h2>Who Needs AlphaFold?</h2>
+</section>
+<section id="animating-static-viral-assemblies" class="slide level2" data-background-video="img/virus_wiggle_zoom.webm" data-background-video-loop="true" data-background-size="contain">
+<h2>Animating Static Viral Assemblies</h2>
+</section>
 <section id="molecular-nodes" class="slide level2" data-background-video="img/virus_rotate_90.mp4" data-background-video-loop="true" data-background-size="contain">
 <h2>Molecular Nodes</h2>
-<div class="fragment fade-up" data-fragment-instance="1">
 <ul>
 <li><h3 id="free-and-open-source">Free and open source</h3></li>
-</ul>
-</div>
-<div class="fragment fade-up" data-fragment-instance="2">
-<ul>
 <li><h3 id="relatively-easy-to-use">‘Relatively’ easy to use</h3></li>
-</ul>
-</div>
-<div class="fragment fade-up" data-fragment-instance="3">
-<ul>
 <li><h3 id="import-and-animate">Import and Animate:</h3>
 <ul>
-<li>PDB structures</li>
-<li>Molecluar Dynamics trajectories (via <a href="https://www.mdanalysis.org/"><code>MDAnalysis</code></a>)</li>
+<li>Static PDB structures</li>
+<li>Molecluar dynamics trajectories (via <a href="https://www.mdanalysis.org/"><code>MDAnalysis</code></a>)</li>
 <li>Multi-state <code>.pdb</code> files from a structural morph</li>
+<li>bio-polymers (DNA, peptides, actin filaments etc)</li>
 </ul></li>
 </ul>
-</div>
-<div class="fragment fade-up" data-fragment-instance="4">
-<ul>
-<li><h3 id="procedurally-animate">Procedurally animate:</h3>
-<ul>
-<li>static crystal structures</li>
-<li>DNA &amp; peptide chains</li>
-</ul></li>
-</ul>
-</div>
+<p>Scan to find out more!</p>
+<p><img data-src="img/combio22.png" width="400" height="400"></p>
 
 <div class="footer footer-default">
 <p><a href="https://twitter.com/bradyajohnston"><span class="citation" data-cites="bradyajohnston">@bradyajohnston</span></a></p>

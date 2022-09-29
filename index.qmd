@@ -1,9 +1,27 @@
 ---
-title: "combio22"
+title: "Blending Proteins"
 ---
 
-This is the website for my talk for ComBio22.
+This is a quick website for my Molecular Nodes talk at COMBIO2022.
 
-I sadly only got a 5 minute talk, but here are my slides and some additional handy videos, links and contact information if you'd like to reach out!
 
-![Drawing peptide chains in Blender.](https://i.imgur.com/y4M3la1.mp4){#fig-draw-residues autoplay="'true'" loop="'true'" fig-align="center"}
+I only get five minutes to talk, so this links out to additional information and downloads of the software.
+
+I sadly only got a 5 minute talk, but here are my [slides](https://bradyajohnston.github.io/combio22/slides.html) and some additional handy videos, links and contact information if you'd like to reach out!
+
+Contact me: 
+  - Twitter: [\@bradyajohnston](https://twitter.com/bradyajohnston)
+  - GitHub: [\@bradyajohnston](https://github.com/bradyajohnston)
+  - Website: [bradyajohnston.github.io](https://bradyajohnston.github.io)
+
+### Molecular Nodes
+- [Github](https://github.com/BradyAJohnston/MolecularNodes)
+- [Blender Download](https://blender.org/)
+- [Documentation](https://bradyajohnston.github.io/MolecularNodes/)
+- [YouTube Tutorials](https://www.youtube.com/watch?v=CvmFaRVmZRU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CvmFaRVmZRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![Drawing peptide chains in Blender.](img/virus_wiggle_zoom.webm){#fig-draw-residues autoplay="true" loop="true" fig-align="center"}
+
+![Drawing peptide chains in Blender.](img/clathrin.webm){#fig-draw-residues autoplay="true" loop="true" fig-align="center"}

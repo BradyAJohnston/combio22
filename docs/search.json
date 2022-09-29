@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "combio22",
+    "title": "Blending Proteins",
     "section": "",
-    "text": "I sadly only got a 5 minute talk, but here are my slides and some additional handy videos, links and contact information if you’d like to reach out!\n\n\nVideo\nFigure 1: Drawing peptide chains in Blender."
+    "text": "I only get five minutes to talk, so this links out to additional information and downloads of the software.\nI sadly only got a 5 minute talk, but here are my slides and some additional handy videos, links and contact information if you’d like to reach out!\nContact me: - Twitter: @bradyajohnston - GitHub: @bradyajohnston - Website: bradyajohnston.github.io\n\nMolecular Nodes\n\nGithub\nBlender Download\nDocumentation\nYouTube Tutorials\n\n\n\n\n\nVideo\nFigure 1: Drawing peptide chains in Blender.\n\n\n\n\nVideo\nFigure 2: Drawing peptide chains in Blender."
   },
   {
     "objectID": "slides.html#traditional-flow-of-structural-data",
@@ -21,60 +21,11 @@
     "text": "Traditional Flow of Structural Data\n\n\n\n\nData exists in .pdb or other structure file\n\nATOM      1  N   ASP A   1      42.099  12.935 -17.274  1.00 43.88      A    N  \nATOM      2  CA  ASP A   1      40.682  12.606 -17.121  1.00 55.80      A    C  \nATOM      3  C   ASP A   1      40.605  12.058 -15.711  1.00 57.97      A    C  \nATOM      4  O   ASP A   1      41.631  11.916 -15.024  1.00 64.28      A    O  \nATOM      5  CB  ASP A   1      40.272  11.534 -18.141  1.00 63.10      A    C  \nATOM      6  CG  ASP A   1      41.162  10.287 -18.062  1.00 59.15      A    C  \nATOM      7  OD1 ASP A   1      41.296   9.672 -16.981  1.00 64.73      A    O  \nATOM      8  OD2 ASP A   1      41.775   9.965 -19.091  1.00 76.58      A    O  \nATOM      9  N   VAL A   2      39.394  11.714 -15.302  1.00 59.57      A    N  \nATOM     10  CA  VAL A   2      39.137  11.285 -13.940  1.00 60.76      A    C  \n\n\n\nLoaded in to software like PyMol, ChimeraX\n\nData is translated to 3D geometry for visualisation\n\n\n\n\n\nMore ‘Cinematic’ Visulisations\n\nExport 3D geometry to other dedicated 3D programs (Blender, Maya)\nConnection to underlying scientific data is lost"
   },
   {
-    "objectID": "slides.html#protein-motor-goes-brrrrr",
-    "href": "slides.html#protein-motor-goes-brrrrr",
+    "objectID": "slides.html#protein-motor-goes-brrrrrrrrrr",
+    "href": "slides.html#protein-motor-goes-brrrrrrrrrr",
     "title": "combio22",
-    "section": "Protein Motor Goes brrrrr",
-    "text": "Protein Motor Goes brrrrr\n\n\n\n\nCinematic visualisation of structural data\n\n\n\n\n         \n\nComputationally heavy to export from ChimeraX\n\n.pdb file is only ~ 100 MB\n3D model file is ~ 10 GB\n55 GB RAM & 40 minutes required to import model into Blender"
-  },
-  {
-    "objectID": "slides.html#introducing-molecular-nodes",
-    "href": "slides.html#introducing-molecular-nodes",
-    "title": "combio22",
-    "section": "Introducing Molecular Nodes",
-    "text": "Introducing Molecular Nodes\n\n\n\n\nImports structure & molecular dynamics trajectores into Blender\n\n\n\n\nHelps Blender understand the molecular data, maintaining connection\n\n\n\n\nEnables procedural generation of 3D geometry, procedural animations based on the underlying scientific data\n\n\nCode to create morph in ChimeraX & save as a multi-state .pdb file:\nopen 6n2y 6n2z 6n30\nmorph #1,2,3 wrap true\nsave atp-frames.pdb #4 allCoordsets true\n\n\n\n\n\nVideo"
-  },
-  {
-    "objectID": "slides.html#stylised-molecular-graphics",
-    "href": "slides.html#stylised-molecular-graphics",
-    "title": "combio22",
-    "section": "Stylised Molecular Graphics",
-    "text": "Stylised Molecular Graphics\n\n\n\n\nNon-photorealistic rendering styles\n\n\n\n\nBased on & still linked to underlying scientific data\n\n\n\n\nDoesn’t require intermediate steps (PyMol, ChimeraX)\n\n\n\n\n\nVideo\nFigure 1: ?(caption)"
-  },
-  {
-    "objectID": "slides.html#animating-protein",
-    "href": "slides.html#animating-protein",
-    "title": "combio22",
-    "section": "Animating Protein",
-    "text": "Animating Protein\n\n\nProcedurally animate various molecular processes.\n\n\n\nVideo\nHistone Sliding"
-  },
-  {
-    "objectID": "slides.html#fully-procedural-dna",
-    "href": "slides.html#fully-procedural-dna",
-    "title": "combio22",
-    "section": "Fully Procedural DNA?",
-    "text": "Fully Procedural DNA?"
-  },
-  {
-    "objectID": "slides.html#who-needs-alphafold",
-    "href": "slides.html#who-needs-alphafold",
-    "title": "combio22",
-    "section": "Who Needs AlphaFold?",
-    "text": "Who Needs AlphaFold?\nWhen you can just draw your own proteins."
-  },
-  {
-    "objectID": "slides.html#animating-amino-acids",
-    "href": "slides.html#animating-amino-acids",
-    "title": "combio22",
-    "section": "Animating Amino Acids",
-    "text": "Animating Amino Acids"
-  },
-  {
-    "objectID": "slides.html#biological-assemblies",
-    "href": "slides.html#biological-assemblies",
-    "title": "combio22",
-    "section": "Biological Assemblies",
-    "text": "Biological Assemblies"
+    "section": "Protein Motor Goes brrrrrrrrrr",
+    "text": "Protein Motor Goes brrrrrrrrrr\n\n\n\n\nCinematic visualisation of structural data\n\nBacterial Flagellar (7CG0)\n\n\n\n\n\n         \n\nComputationally heavy to export from ChimeraX\n\n.pdb file is only ~ 100 MB\n3D model file is ~ 10 GB\n55 GB RAM & 40 minutes required to import model into Blender"
   },
   {
     "objectID": "slides.html#instancing-of-single-proteins",
@@ -84,10 +35,73 @@
     "text": "Instancing of Single Proteins"
   },
   {
+    "objectID": "slides.html#biological-assemblies",
+    "href": "slides.html#biological-assemblies",
+    "title": "combio22",
+    "section": "Biological Assemblies",
+    "text": "Biological Assemblies"
+  },
+  {
+    "objectID": "slides.html#molecular-landscapes",
+    "href": "slides.html#molecular-landscapes",
+    "title": "combio22",
+    "section": "Molecular Landscapes",
+    "text": "Molecular Landscapes"
+  },
+  {
+    "objectID": "slides.html#automatic-creation-of-dna",
+    "href": "slides.html#automatic-creation-of-dna",
+    "title": "combio22",
+    "section": "Automatic Creation of DNA?",
+    "text": "Automatic Creation of DNA?"
+  },
+  {
+    "objectID": "slides.html#automatic-animation-of-dna",
+    "href": "slides.html#automatic-animation-of-dna",
+    "title": "combio22",
+    "section": "Automatic Animation of DNA?",
+    "text": "Automatic Animation of DNA?"
+  },
+  {
+    "objectID": "slides.html#incorporate-with-.pdb-structures",
+    "href": "slides.html#incorporate-with-.pdb-structures",
+    "title": "combio22",
+    "section": "Incorporate with .pdb Structures",
+    "text": "Incorporate with .pdb Structures"
+  },
+  {
+    "objectID": "slides.html#animating-static-crystal-structures",
+    "href": "slides.html#animating-static-crystal-structures",
+    "title": "combio22",
+    "section": "Animating Static Crystal Structures",
+    "text": "Animating Static Crystal Structures"
+  },
+  {
+    "objectID": "slides.html#animating-amino-acids",
+    "href": "slides.html#animating-amino-acids",
+    "title": "combio22",
+    "section": "Animating Amino Acids",
+    "text": "Animating Amino Acids"
+  },
+  {
+    "objectID": "slides.html#who-needs-alphafold",
+    "href": "slides.html#who-needs-alphafold",
+    "title": "combio22",
+    "section": "Who Needs AlphaFold?",
+    "text": "Who Needs AlphaFold?"
+  },
+  {
+    "objectID": "slides.html#animating-static-viral-assemblies",
+    "href": "slides.html#animating-static-viral-assemblies",
+    "title": "combio22",
+    "section": "Animating Static Viral Assemblies",
+    "text": "Animating Static Viral Assemblies"
+  },
+  {
     "objectID": "slides.html#molecular-nodes",
     "href": "slides.html#molecular-nodes",
     "title": "combio22",
     "section": "Molecular Nodes",
-    "text": "Molecular Nodes\n\n\nFree and open source\n\n\n\n\n‘Relatively’ easy to use\n\n\n\n\nImport and Animate:\n\nPDB structures\nMolecluar Dynamics trajectories (via MDAnalysis)\nMulti-state .pdb files from a structural morph\n\n\n\n\n\nProcedurally animate:\n\nstatic crystal structures\nDNA & peptide chains\n\n\n\n\n\n@bradyajohnston"
+    "text": "Molecular Nodes\n\nFree and open source\n‘Relatively’ easy to use\nImport and Animate:\n\nStatic PDB structures\nMolecluar dynamics trajectories (via MDAnalysis)\nMulti-state .pdb files from a structural morph\nbio-polymers (DNA, peptides, actin filaments etc)\n\n\nScan to find out more!\n\n\n\n@bradyajohnston"
   }
 ]
