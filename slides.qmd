@@ -13,7 +13,7 @@ format:
 editor: source
 ---
 
-# Blending Proteins {background-video="https://i.imgur.com/IvMSiE1.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
+# Blending Proteins {background-video="img/clathrin.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
 Democratising access to beautiful molecular landscapes.
 
