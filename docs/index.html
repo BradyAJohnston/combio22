@@ -100,7 +100,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#molecular-nodes" id="toc-molecular-nodes" class="nav-link active" data-scroll-target="#molecular-nodes">Molecular Nodes</a></li>
+  <li><a href="#molecular-nodes" id="toc-molecular-nodes" class="nav-link active" data-scroll-target="#molecular-nodes">Molecular Nodes</a>
+  <ul class="collapse">
+  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">Tutorials</a></li>
+  <li><a href="#exmaple-movies" id="toc-exmaple-movies" class="nav-link" data-scroll-target="#exmaple-movies">Exmaple Movies</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -123,34 +127,68 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This is a quick website for my Molecular Nodes talk at COMBIO2022.</p>
-<p>I only get five minutes to talk, so this links out to additional information and downloads of the software.</p>
-<p>I sadly only got a 5 minute talk, but here are my <a href="https://bradyajohnston.github.io/combio22/slides.html">slides</a> and some additional handy videos, links and contact information if you’d like to reach out!</p>
-<p>Contact me: - Twitter: <a href="https://twitter.com/bradyajohnston">@bradyajohnston</a> - GitHub: <a href="https://github.com/bradyajohnston">@bradyajohnston</a> - Website: <a href="https://bradyajohnston.github.io">bradyajohnston.github.io</a></p>
-<section id="molecular-nodes" class="level3">
-<h3 class="anchored" data-anchor-id="molecular-nodes">Molecular Nodes</h3>
+<section id="democratising-access-to-beautiful-molecular-landscapes." class="level4">
+<h4 class="anchored" data-anchor-id="democratising-access-to-beautiful-molecular-landscapes.">Democratising access to beautiful molecular landscapes.</h4>
+<blockquote class="blockquote">
+<p>Alternative subtitle: <em>Why I still haven’t submitted my PhD thesis.</em></p>
+</blockquote>
+<p>This is a quick website for my talk at COMBIO2022.</p>
+<p>I sadly only get a 5 minute time slot, but here are my <a href="https://bradyajohnston.github.io/combio22/slides.html">slides</a> and some additional handy videos, links and contact information if you’d like to reach out!</p>
+</section>
+<section id="contact-me" class="level4">
+<h4 class="anchored" data-anchor-id="contact-me">Contact me:</h4>
+<ul>
+<li>Twitter: <a href="https://twitter.com/bradyajohnston">@bradyajohnston</a></li>
+<li>GitHub: <a href="https://github.com/bradyajohnston">@bradyajohnston</a></li>
+<li>Website: <a href="https://bradyajohnston.github.io">bradyajohnston.github.io</a></li>
+</ul>
+</section>
+<section id="molecular-nodes" class="level2">
+<h2 class="anchored" data-anchor-id="molecular-nodes">Molecular Nodes</h2>
+<p>Molecular Nodes is a plugin for the 3D modelling and animation program Blender, which is a completely free and open source program used widely in the production of movies, TV and video games.</p>
+<p>Molecular Nodes enables Blender to understand and create 3D models and animations based on the underlying atomic data like individual amino acids, protein chains and atomic properties of the individual atoms.</p>
+<p>This significantly improves the workflow of trying to create beautiful &amp; cinematic molecular landscapes, enabling a quick and robust way of dealing with structural biology and molecular data inside of Blender.</p>
+<p>Molecular Nodes is also the reason that I still haven’t submitted my PhD thesis, outside of lab work I have been developing this addon with spare minute that I have.</p>
 <ul>
 <li><a href="https://github.com/BradyAJohnston/MolecularNodes">Github</a></li>
 <li><a href="https://blender.org/">Blender Download</a></li>
 <li><a href="https://bradyajohnston.github.io/MolecularNodes/">Documentation</a></li>
 <li><a href="https://www.youtube.com/watch?v=CvmFaRVmZRU">YouTube Tutorials</a></li>
 </ul>
+<section id="tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="tutorials">Tutorials</h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CvmFaRVmZRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
-<div id="fig-draw-residues" class="quarto-figure quarto-figure-center anchored">
+</section>
+<section id="exmaple-movies" class="level3">
+<h3 class="anchored" data-anchor-id="exmaple-movies">Exmaple Movies</h3>
+<div id="fig-wiggle-atoms" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><video src="img/virus_wiggle_zoom.webm" class="img-fluid" autoplay="true" loop="true" controls=""><a href="img/virus_wiggle_zoom.webm">Video</a></video></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;1: Drawing peptide chains in Blender.</figcaption><p></p>
+<p><video src="img/virus_wiggle_zoom.webm" class="img-fluid" autoplay="true" loop="true" muted="true" controls=""><a href="img/virus_wiggle_zoom.webm">Video</a></video></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Animating individual amino acids in real time of an entire viral assembly based on the occupany values that is recorded inside of the structure file.</figcaption><p></p>
 </figure>
 </div>
 <div id="fig-draw-residues" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><video src="img/clathrin.webm" class="img-fluid" autoplay="true" loop="true" controls=""><a href="img/clathrin.webm">Video</a></video></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;2: Drawing peptide chains in Blender.</figcaption><p></p>
+<p><video src="img/clathrin.webm" class="img-fluid" autoplay="true" loop="true" muted="muted" controls=""><a href="img/clathrin.webm">Video</a></video></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: A stylised reveal of the clathrin structure.</figcaption><p></p>
+</figure>
+</div>
+<div id="fig-draw-residues" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><video src="img/draw_proteins.webm" class="img-fluid" autoplay="true" loop="true" muted="muted" controls=""><a href="img/draw_proteins.webm">Video</a></video></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;3: Automatically creating a novel peptide chain based on the manual ‘drawing’ of a peptide backbone.</figcaption><p></p>
+</figure>
+</div>
+<div id="fig-atp-claymation" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><video src="img/atp.webm" class="img-fluid" autoplay="'true'" loop="true" muted="true" controls=""><a href="img/atp.webm">Video</a></video></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;4: ATP-synthase rendered as a stop-motion claymation.</figcaption><p></p>
 </figure>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,27 +1,46 @@
 ---
 title: "Blending Proteins"
 ---
+#### Democratising access to beautiful molecular landscapes.
 
-This is a quick website for my Molecular Nodes talk at COMBIO2022.
+> Alternative subtitle: _Why I still haven't submitted my PhD thesis._
 
+This is a quick website for my talk at COMBIO2022.
 
-I only get five minutes to talk, so this links out to additional information and downloads of the software.
+I sadly only get a 5 minute time slot, but here are my [slides](https://bradyajohnston.github.io/combio22/slides.html) and some additional handy videos, links and contact information if you'd like to reach out!
 
-I sadly only got a 5 minute talk, but here are my [slides](https://bradyajohnston.github.io/combio22/slides.html) and some additional handy videos, links and contact information if you'd like to reach out!
+#### Contact me: 
 
-Contact me: 
-  - Twitter: [\@bradyajohnston](https://twitter.com/bradyajohnston)
-  - GitHub: [\@bradyajohnston](https://github.com/bradyajohnston)
-  - Website: [bradyajohnston.github.io](https://bradyajohnston.github.io)
+- Twitter: [\@bradyajohnston](https://twitter.com/bradyajohnston)
+- GitHub: [\@bradyajohnston](https://github.com/bradyajohnston)
+- Website: [bradyajohnston.github.io](https://bradyajohnston.github.io)
+  
+## Molecular Nodes
 
-### Molecular Nodes
+Molecular Nodes is a plugin for the 3D modelling and animation program Blender, which is a completely free and open source program used widely in the production of movies, TV and video games.
+
+Molecular Nodes enables Blender to understand and create 3D models and animations based on the underlying atomic data like individual amino acids, protein chains and atomic properties of the individual atoms.
+
+This significantly improves the workflow of trying to create beautiful & cinematic molecular landscapes, enabling a quick and robust way of dealing with structural biology and molecular data inside of Blender.
+
+Molecular Nodes is also the reason that I still haven't submitted my PhD thesis, outside of lab work I have been developing this addon with spare minute that I have.
+
 - [Github](https://github.com/BradyAJohnston/MolecularNodes)
 - [Blender Download](https://blender.org/)
 - [Documentation](https://bradyajohnston.github.io/MolecularNodes/)
 - [YouTube Tutorials](https://www.youtube.com/watch?v=CvmFaRVmZRU)
 
+### Tutorials
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CvmFaRVmZRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![Drawing peptide chains in Blender.](img/virus_wiggle_zoom.webm){#fig-draw-residues autoplay="true" loop="true" fig-align="center"}
+### Exmaple Movies 
 
-![Drawing peptide chains in Blender.](img/clathrin.webm){#fig-draw-residues autoplay="true" loop="true" fig-align="center"}
+![Animating individual amino acids in real time of an entire viral assembly based on the occupany values that is recorded inside of the structure file.](img/virus_wiggle_zoom.webm){#fig-wiggle-atoms autoplay="true" loop="true" fig-align="center" muted="true"}
+
+![A stylised reveal of the clathrin structure.](img/clathrin.webm){#fig-draw-residues autoplay="true" loop="true" fig-align="center" muted="muted"}
+
+![Automatically creating a novel peptide chain based on the manual 'drawing' of a peptide backbone.](img/draw_proteins.webm){#fig-draw-residues autoplay="true" loop="true" fig-align="center" muted="muted"}
+
+
+![ATP-synthase rendered as a stop-motion claymation.](img/atp.webm){#fig-atp-claymation autoplay="'true'" loop="true" fig-align="center" muted="true"}

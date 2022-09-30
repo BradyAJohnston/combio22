@@ -13,7 +13,7 @@ format:
 editor: source
 ---
 
-# Blending Proteins {background-video="https://i.imgur.com/IvMSiE1.mp4" background-video-loop="true" background-size="contain}
+# Blending Proteins {background-video="https://i.imgur.com/IvMSiE1.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
 Democratising access to beautiful molecular landscapes.
 
@@ -66,7 +66,7 @@ ATOM     10  CA  VAL A   2      39.137  11.285 -13.940  1.00 60.76      A    C
 :::::
 :::
 
-## Protein Motor Goes _brrrrrrrrrr_ {background-video="img/protein-motor.webm" background-video-loop="true" background-size="contain"}
+## Protein Motor Goes _brrrrrrrrrr_ {background-video="img/protein-motor.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
 ::: columns
 ::: {.column width="60%"}
@@ -102,30 +102,30 @@ ATOM     10  CA  VAL A   2      39.137  11.285 -13.940  1.00 60.76      A    C
 :::
 
 
-## {background-video="img/md-spike.webm" background-video-loop="true" background-size="contain"}
+## Molecular Dynamics {background-video="img/md-spike.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
-## Instancing of Single Proteins {background-video="img/atp-scatter.webm" background-video-loop="true" background-size="contain"}
+## Instancing of Single Proteins {background-video="img/atp-scatter.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
-## Biological Assemblies {background-video="img/NPC.webm" background-video-loop="true" background-size="contain"}
+## Biological Assemblies {background-video="img/NPC.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
-## Molecular Landscapes {background-video="img/virus-particles.webm" background-video-loop="true" background-size="contain"}
+## Molecular Landscapes {background-video="img/virus-particles.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
-## Automatic Creation of DNA? {background-video="img/dna-unwind.webm" background-video-loop="true" background-video-autoplay="true"}
+## Automatic Creation of DNA? {background-video="img/dna-unwind.webm" background-video-loop="true" background-video-autoplay="true" background-video-muted="true"}
 
-## Automatic Animation of DNA? {background-video="img/dna_synth.webm" background-video-loop="true" background-video-autoplay="true"}
+## Automatic Animation of DNA? {background-video="img/dna_synth.webm" background-video-loop="true" background-video-autoplay="true" background-video-muted="true"}
 
-## Incorporate with `.pdb` Structures {background-video="img/dna-histone.webm" background-video-loop="true" background-video-autoplay="true"}
+## Incorporate with `.pdb` Structures {background-video="img/dna-histone.webm" background-video-loop="true" background-video-autoplay="true" background-video-muted="true"}
 
-## Animating Static Crystal Structures {background-video="img/wiggle-1.webm" background-video-loop="true" background-size="contain"}
+## Animating Static Crystal Structures {background-video="img/wiggle-1.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
-## Animating Amino Acids {background-video="img/protein_synthesis.mp4" background-video-loop="true" background-size="contain"}
+## Animating Amino Acids {background-video="img/protein_synthesis.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
-## Who Needs AlphaFold? {background-video="img/draw_proteins.webm" background-video-loop="true" background-size="contain"}
+## Who Needs AlphaFold? {background-video="img/draw_proteins.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
-## Animating Static Viral Assemblies {background-video="img/virus_wiggle_zoom.webm" background-video-loop="true" background-size="contain"}
+## Animating Static Viral Assemblies {background-video="img/virus_wiggle_zoom.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
 
-## Molecular Nodes {background-video="img/virus_rotate_90.mp4" background-video-loop="true" background-size="contain"}
+## Molecular Nodes {background-video="img/virus_rotate_90.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
 - ### Free and open source
 

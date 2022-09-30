@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blending Proteins",
     "section": "",
-    "text": "I only get five minutes to talk, so this links out to additional information and downloads of the software.\nI sadly only got a 5 minute talk, but here are my slides and some additional handy videos, links and contact information if you’d like to reach out!\nContact me: - Twitter: @bradyajohnston - GitHub: @bradyajohnston - Website: bradyajohnston.github.io\n\nMolecular Nodes\n\nGithub\nBlender Download\nDocumentation\nYouTube Tutorials\n\n\n\n\n\nVideo\nFigure 1: Drawing peptide chains in Blender.\n\n\n\n\nVideo\nFigure 2: Drawing peptide chains in Blender."
+    "text": "Alternative subtitle: Why I still haven’t submitted my PhD thesis.\n\nThis is a quick website for my talk at COMBIO2022.\nI sadly only get a 5 minute time slot, but here are my slides and some additional handy videos, links and contact information if you’d like to reach out!"
+  },
+  {
+    "objectID": "index.html#molecular-nodes",
+    "href": "index.html#molecular-nodes",
+    "title": "Blending Proteins",
+    "section": "Molecular Nodes",
+    "text": "Molecular Nodes\nMolecular Nodes is a plugin for the 3D modelling and animation program Blender, which is a completely free and open source program used widely in the production of movies, TV and video games.\nMolecular Nodes enables Blender to understand and create 3D models and animations based on the underlying atomic data like individual amino acids, protein chains and atomic properties of the individual atoms.\nThis significantly improves the workflow of trying to create beautiful & cinematic molecular landscapes, enabling a quick and robust way of dealing with structural biology and molecular data inside of Blender.\nMolecular Nodes is also the reason that I still haven’t submitted my PhD thesis, outside of lab work I have been developing this addon with spare minute that I have.\n\nGithub\nBlender Download\nDocumentation\nYouTube Tutorials\n\n\nTutorials\n\n\n\n\nExmaple Movies\n\n\nVideo\nFigure 1: Animating individual amino acids in real time of an entire viral assembly based on the occupany values that is recorded inside of the structure file.\n\n\n\n\nVideo\nFigure 2: A stylised reveal of the clathrin structure.\n\n\n\n\nVideo\nFigure 3: Automatically creating a novel peptide chain based on the manual ‘drawing’ of a peptide backbone.\n\n\n\n\nVideo\nFigure 4: ATP-synthase rendered as a stop-motion claymation."
   },
   {
     "objectID": "slides.html#traditional-flow-of-structural-data",
@@ -26,6 +26,13 @@
     "title": "combio22",
     "section": "Protein Motor Goes brrrrrrrrrr",
     "text": "Protein Motor Goes brrrrrrrrrr\n\n\n\n\nCinematic visualisation of structural data\n\nBacterial Flagellar (7CG0)\n\n\n\n\n\n         \n\nComputationally heavy to export from ChimeraX\n\n.pdb file is only ~ 100 MB\n3D model file is ~ 10 GB\n55 GB RAM & 40 minutes required to import model into Blender"
+  },
+  {
+    "objectID": "slides.html#molecular-dynamics",
+    "href": "slides.html#molecular-dynamics",
+    "title": "combio22",
+    "section": "Molecular Dynamics",
+    "text": "Molecular Dynamics"
   },
   {
     "objectID": "slides.html#instancing-of-single-proteins",
