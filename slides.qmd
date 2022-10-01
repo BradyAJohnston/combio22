@@ -104,7 +104,7 @@ ATOM     10  CA  VAL A   2      39.137  11.285 -13.940  1.00 60.76      A    C
 
 ## Molecular Dynamics {background-video="img/md-spike.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
-## Instancing of Single Proteins {background-video="img/atp-scatter.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
+## Instancing of Single Proteins {background-video="img/atp-scatter.webm" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
 ## Biological Assemblies {background-video="img/NPC.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
@@ -122,7 +122,7 @@ ATOM     10  CA  VAL A   2      39.137  11.285 -13.940  1.00 60.76      A    C
 
 ## Who Needs AlphaFold? {background-video="img/draw_proteins.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
-## Animating Static Viral Assemblies {background-video="img/virus_wiggle_zoom.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
+## Animating Static Viral Assemblies {background-video="img/virus_wiggle_zoom.mp4a" background-video-loop="true" background-size="contain" background-video-muted="true"}
 
 
 ## Molecular Nodes {background-video="img/virus_rotate_90.mp4" background-video-loop="true" background-size="contain" background-video-muted="true"}
