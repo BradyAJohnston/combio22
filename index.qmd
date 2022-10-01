@@ -36,11 +36,11 @@ Molecular Nodes is also the reason that I still haven't submitted my PhD thesis,
 
 ### Exmaple Movies 
 
-![Animating individual amino acids in real time of an entire viral assembly based on the occupany values that is recorded inside of the structure file.](img/virus_wiggle_zoom.webm){#fig-wiggle-atoms autoplay="true" loop="true" fig-align="center" muted="true"}
+![Animating individual amino acids in real time of an entire viral assembly based on the occupany values that is recorded inside of the structure file.](img/virus_wiggle_zoom.mp4){#fig-wiggle-atoms autoplay="true" loop="true" fig-align="center" muted="true"}
 
-![A stylised reveal of the clathrin structure.](img/clathrin.webm){#fig-draw-residues autoplay="true" loop="true" fig-align="center" muted="muted"}
+![A stylised reveal of the clathrin structure.](img/clathrin.mp4){#fig-draw-residues autoplay="true" loop="true" fig-align="center" muted="muted"}
 
-![Automatically creating a novel peptide chain based on the manual 'drawing' of a peptide backbone.](img/draw_proteins.webm){#fig-draw-residues autoplay="true" loop="true" fig-align="center" muted="muted"}
+![Automatically creating a novel peptide chain based on the manual 'drawing' of a peptide backbone.](img/draw_proteins.mp4){#fig-draw-residues autoplay="true" loop="true" fig-align="center" muted="muted"}
 
 
-![ATP-synthase rendered as a stop-motion claymation.](img/atp.webm){#fig-atp-claymation autoplay="'true'" loop="true" fig-align="center" muted="true"}
+![ATP-synthase rendered as a stop-motion claymation.](img/atp.mp4){#fig-atp-claymation autoplay="'true'" loop="true" fig-align="center" muted="true"}
